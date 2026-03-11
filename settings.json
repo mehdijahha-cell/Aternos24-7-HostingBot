@@ -14,7 +14,7 @@
   "position": {
     "enabled": true,
     "x": 0,
-    "y": 100,
+    "y": 200,
     "z": 0
   },
   "utils": {
@@ -27,7 +27,7 @@
       "sneak": true
     },
     "chat-messages": {
-      "enabled": true,
+      "enabled": false,
       "repeat": true,
       "repeat-delay": 120,
       "messages": [
@@ -41,9 +41,9 @@
     "auto-reconnect-delay": 2000,
     "max-reconnect-delay": 120000,
     "periodic-rejoin": {
-      "enabled": false,
-      "min-interval": 20,
-      "max-interval": 60
+      "enabled": true,
+      "min-interval": 1000,
+      "max-interval": 2500
     }
   },
   "movement": {
